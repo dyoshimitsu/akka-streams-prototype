@@ -11,3 +11,4 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 # WebSocket
 GET     /websocket/connect          controllers.WebSocketController.connect
+GET     /websocket/dynamic          controllers.WebSocketController.dynamic

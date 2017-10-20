@@ -14,3 +14,11 @@ cd play-scala-seed
 sbt run
 wscat --connect 'ws://localhost:9000/websocket/connect'
 ```
+
+## WebSocketController/dynamic
+
+```shell
+cd play-scala-seed
+sbt run
+wscat --connect 'ws://localhost:9000/websocket/dynamic'
+```
